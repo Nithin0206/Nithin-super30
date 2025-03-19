@@ -20,7 +20,11 @@
             <div class="nav-middle">
                 <div class="nav-input">
                     <input type="text" placeholder="Search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </div>
+                    
                 </div>
                 <i class="fa-solid fa-microphone"></i>
             </div>
@@ -41,14 +45,14 @@
         <div class="left-panel">
             <div class="left-icon">
                 <i class="fa-solid fa-house"></i>
-                <span>Home</span>
+                <a href="index.html">Home</a>
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-house"></i>
+                <img style="width: 25px;" src="https://i.pinimg.com/736x/17/d2/18/17d21878c22fe49e7e4752eecaa36541.jpg" alt="">
                 <span>Shorts</span>
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-house"></i>
+                <img style="width: 25px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AAADa2tphYWHPz8/7+/vT09Ojo6NTU1Oampri4uLv7+9ZWVk6Ojry8vKPj4+ysrJpaWksLCwaGhq8vLx1dXXCwsIhISExMTGqqqo/Pz8bGxuGhoZGRkZ5eXnJycmenp6JiYklJSWhI8+9AAADVUlEQVR4nO2di07jMBAA3dIUmpZSSml5w/H/H3lBJ6Se7gA/1rvrZuYDnB1FWdkbex0CAAAAAAAAAIyafqpLr254MdHlQt3wTNnwDEMMMcQQQwwxxBBDDDHEEEOXhitlw5W64e5cl526IQAAAAAAAAA0yGZ15o/VRtBwoVx2imOBIYYYmoMhhhjagyGGGNqDIYYY2oNhEp1HJAUBAAAAAAAAxkA/n/lkLtFKYvZyaV2O+ZbLp1mR3+bd2iCCbf6uk/3BOvhI3vd5gtfWgSdwneG3vrOOOom7dbKgdcjJpCpurQNOZpsm2NI3+EnSt7i3jjaLlIx6Yx1sFjfxgvfWsWZyH234aB1qJodYwbl1pNlMIw2vrAPN5irS8ME60Gwe4gQ76zgLiPsvvLQOs4BllGFvHWYBcYv+dlPpZDLHEEP3YIihf9QNH7RrBeqGqzDXLZmrG340cN5prjZNDEM4lxvwJ4wMQ6e24rQyDGF9Kzfod9gZDisWlRZ2lobDuAq1A1vDIa1Wr8NaG9ZPq/aGtdOqA8MQli9y4/+DC8OqadWJYQizWrNVN4ZDWq2zC8KRYaUfXK4Mq/wfcWYYluKzVW+G8mnVn2EQLgJ4NJQtAvg0lEyrXg3lZqtuDcWKAI4NhdKqa8Phwc/FD3RuKLBn171hcVptwDB0Rd0NWjAc0mpBEaANw2FGnv3LqhXDPvuKlzYM899gG4bdU8kDGzB8K3uge8Pisr9zw1n5IRbXhr3EHcqODYWKUm4NyxLoEV4NCxPoET4NN3LPc2n4KnoK0J/htHxZ/xfeDEtmoP/Hl+FaKoEe4cqwSqdCR4aSCfQIN4b7Wuf8nRgK1EW/woVhfokiAgeGJYW0CMwNq280tTasv1nY1rD+zkRbw5nKyVQ7Q50dwnaG8vtmvsLGsPslN+BPmBgqnrYwORWkkUCPUDe81D7az+k8DP2DIYb+wfAPp9/54/S7t5x+B57T76I0gk5Y7SbTuFQaWm0qOJk8xgqOoKtgoy8xoTPkCLp7BrXimCC3KYIj6LIb1q308v7kkHzRXNdYt+ucm/Tq/umT5SXDb+C1ha76H7y/5gkObFr4Gg/5Nwd8MF3U21YgwfMitrPuN3TLfuqTfslNnQAAAAAAAACj4Te2mX1dGFBaEAAAAABJRU5ErkJggg==" alt="">
                 <span>Subscriptions</span>
             </div>
     
@@ -63,23 +67,23 @@
                 
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <img style="width: 30px;" src="./playlist.png" alt="">
+                <span>Playlists</span>
                 
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <img style="width: 25px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAZlBMVEX///8AAAD8/PxeXl6lpaXb29sMDAyCgoIyMjJ/f3/Ly8shISFiYmLz8/P29vYFBQXq6uri4uLDw8OUlJRLS0spKSm3t7c+Pj5nZ2dYWFirq6tQUFDU1NQVFRW9vb1vb2+cnJyKiopEaa8bAAAChUlEQVR4nO3c23KiQBAGYDoqiLjBCERDNOj7v2TGdU2JEeyB6cMm/V9PqK9Gak5NJooslt+VJ+HcIc2SGESTp7Nb02IuSzplvrjpJwUmp2r3VSLtOSdtvePC79Ml8fXb/iStucRQ2BgKm/8KlS0nrFlmCNTydgaizhKBmnCjJoYylKEMZShDGcpQhjKUoX4calW4Rsm3UzdR1Kr826oq/ihCfT1i83rv6FQEtbtqWe6CsMaj6quWsE9fVKCm0Eo2fdaHAph/jGURoACanUIUQLpSiIJqOmLUokK5v1orRAG8D/0NKVEQF8NGLVKUm3lqhahTdcx/5iFHuUWN96jFgHKLGs/O4kC5efrVa9TiQQFsF70PkUHBvsF3FhvK5YAdTDlRUH4oREH+hhoeeFEuR8TMw46CzUEhyrHWDwZTCZQbtfq30zIoqI59o5YQym3F6m6WGMotTDvXy4IoiLtWgJIogI6+kkV1PFkWBYZCRuXPp/FFP3Q8UhBVdR6RiqHyY/fiWAgVN31rPRlU2b+ikkBVj85q+VFZ8nCnxY7aIvYzzKgNaufHisKeznKi0NU3NlT+ji8IcqFKn7IbE6rwOr3mQO0bzwN1BtTWu/RAj6r9C23EqKoYUvujRQ0s/FGisqFlbjpUOagsQ4saWMCiRE1GfWRCgnpDHk0zouJ6VFWbArV/vNplQLU+K/ErDNGhFlcts/X4b0qCoKLy0m5+CEIKgvr3P5NhPggKhYpmzanRgAI2Jcol2JdvIVFhYyhDGcpQhjKUoQxlKEMZqhel8moClZc4iMZQ2BgKG/2oXFpzTuuqpyiV5pyTtEZVldeHqbxozfVVKnyFWHy3PK/w8j6L5SfnE2ChNccnT+OhAAAAAElFTkSuQmCC" alt="">
+                <span>Your videos</span>
                 
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <i class="fa-regular fa-clock"></i>
+                <a href="./Watch_later.html">Watch later</a>
                 
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <i class="fa-regular fa-thumbs-up"></i>
+                <a href="./Liked.html">Liked Videos</a>
                 
             </div>
             <hr class="custom-hr">
@@ -87,28 +91,33 @@
                 <span>Subscriptions </span>
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <img style="width: 25px; height: 25px;" src="https://yt3.ggpht.com/Kyov1SdStAMCpkSZ3-oTyJZ9i3h_5ZUGoBw7tzCilfZOj_U0ljwmFSe3zSxTV4Tih_z7C49l4A=s88-c-k-c0x00ffffff-no-rj" alt="">
+                <span>Barbell Pitch Meeti...</span>
                 
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <img style="width: 25px; height: 25px; border-radius: 50%;" src="https://yt3.ggpht.com/agEqZ08wJnRBAYVFJuIlF5Qdp_MHK-hQHA37B8vPASilp_LhF2KkkG3ckhzWh83kLdQPgNWYnw=s88-c-k-c0x00ffffff-no-rj" alt="">
+                <span>Max Amini</span>
                 
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <img style="width: 25px; height: 25px; border-radius: 50%;" src="https://yt3.ggpht.com/IhZOA133_uJacbeV67UEIqKmMyDjVczny72NNvk-6FIFOoHPTQE41PFuPSe_4parLDslVr50ag=s88-c-k-c0x00ffffff-no-rj" alt="">
+                <span>Raw Talks With VK</span>
                 
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <img style="width: 20px; height: 20px; border-radius: 50%;" src="https://yt3.ggpht.com/-Fux0iQ0Jk7bTw1UGDR6XwS_TTnO15AWR2GxeDATZHp00mzVPK5iN4uX4HFRT0N99sR_oBLLZw=s88-c-k-c0x00ffffff-no-rj" alt="">
+                <span>StumpTales</span>
                 
             </div>
             <div class="left-icon">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>History</span>
+                <img style="width: 25px; height: 25px; border-radius: 50%;" src="https://yt3.ggpht.com/YbyKtAh2rokw_64GfRIuPH0p1m5YH-uDJOK3jcfKrQt7XlqZVneDck9uuxRjjugg79OyKYPVt0g=s88-c-k-c0x00ffffff-no-rj" alt="">
+                <span>SAMexpert TV</span>
+                
+            </div>
+            <div class="left-icon">
+                <i class="fa-solid fa-list"></i>
+                <span>All Subscriptions</span>
                 
             </div>
         </div>
@@ -145,7 +154,7 @@
                     </div>
                     <div class="video-details">
                         <div class="channel-logo">
-                            <img src="https://yt3.ggpht.com/ytc/AIdro_l3Bz6doyOqmxnbxC7YTPEYDkB4EqydIAMsbEUjvC3cQlxG46o=s88-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
+                            <img src="https://yt3.ggpht.com/ytc/AIdro_kdFSFaUrMKl1-R4r1J2XUBvWPTZJfUTCD4Y16SSczWCP4=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
                         </div>
                         <div class="video-info">
                             <div class="video-title">PCB Send legal Notice to Cricketer For Picking IPL over PSL | First Sports.</div>
@@ -161,7 +170,7 @@
                     </div>
                     <div class="video-details">
                         <div class="channel-logo">
-                            <img src="https://yt3.ggpht.com/ytc/AIdro_l3Bz6doyOqmxnbxC7YTPEYDkB4EqydIAMsbEUjvC3cQlxG46o=s88-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
+                            <img src="https://yt3.ggpht.com/36UdRntxB_MRz7-9rr-JbFLinzsbpopUYsWKywIURDsgLT548xafu4BCrcc9rUTbT1aJZWGD3Q=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
                         </div>
                         <div class="video-info">
                             <div class="video-title">Ila Kuda Love Cheyocha? | Gentleman | Nani | Surbhi | Nivetha Thomas</div>
@@ -173,11 +182,11 @@
             
                 <div class="video-container">
                     <div class="video-box">
-                        <img src="https://i.ytimg.com/vi/3JZ_D3ELwOQ/maxresdefault.jpg" alt="Video Thumbnail">
+                        <img src="./Screenshot 2025-03-19 at 4.08.41 PM.png" alt="Video Thumbnail">
                     </div>
                     <div class="video-details">
                         <div class="channel-logo">
-                            <img src="https://yt3.ggpht.com/ytc/AIdro_l3Bz6doyOqmxnbxC7YTPEYDkB4EqydIAMsbEUjvC3cQlxG46o=s88-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
+                            <img src="https://yt3.ggpht.com/3jFh1gFXByR47e7VLyE6TOkRCXEqUbw2CIgH5kIJt2NzGeDP-qvGvwQMrZi9nVQmkEAjA_X8UQ=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
                         </div>
                         <div class="video-info">
                             <div class="video-title">India as a Sports Forward Nation in the words of Virat Kohli | RCB x Leaders</div>
@@ -190,48 +199,48 @@
             <div class="video-section">
                 <div class="video-container">
                     <div class="video-box">
-                        <img src="https://i.ytimg.com/vi/3JZ_D3ELwOQ/maxresdefault.jpg" alt="Video Thumbnail">
+                        <img src="./Screenshot 2025-03-19 at 4.09.56 PM.png" alt="Video Thumbnail">
                     </div>
                     <div class="video-details">
                         <div class="channel-logo">
-                            <img src="https://yt3.ggpht.com/ytc/AIdro_l3Bz6doyOqmxnbxC7YTPEYDkB4EqydIAMsbEUjvC3cQlxG46o=s88-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
+                            <img src="https://yt3.ggpht.com/3jFh1gFXByR47e7VLyE6TOkRCXEqUbw2CIgH5kIJt2NzGeDP-qvGvwQMrZi9nVQmkEAjA_X8UQ=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
                         </div>
                         <div class="video-info">
-                            <div class="video-title">India as a Sports Forward Nation in the words of Virat Kohli | RCB x Leaders</div>
+                            <div class="video-title">Behind the Scenes at RCB Team Day2 | IPL 2025 | Bold Diaries</div>
                             <div class="channel-name">Royal Challengers Bengaluru ✔</div>
-                            <div class="video-meta">11K views • 37 minutes ago</div>
+                            <div class="video-meta">106K views • 7 Hours ago</div>
                         </div>
                     </div>
                 </div>
             
                 <div class="video-container">
                     <div class="video-box">
-                        <img src="https://i.ytimg.com/vi/3JZ_D3ELwOQ/maxresdefault.jpg" alt="Video Thumbnail">
+                        <img src="./Screenshot 2025-03-19 at 4.10.19 PM.png" alt="Video Thumbnail">
                     </div>
                     <div class="video-details">
                         <div class="channel-logo">
-                            <img src="https://yt3.ggpht.com/ytc/AIdro_l3Bz6doyOqmxnbxC7YTPEYDkB4EqydIAMsbEUjvC3cQlxG46o=s88-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
+                            <img src="https://yt3.ggpht.com/3jFh1gFXByR47e7VLyE6TOkRCXEqUbw2CIgH5kIJt2NzGeDP-qvGvwQMrZi9nVQmkEAjA_X8UQ=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
                         </div>
                         <div class="video-info">
-                            <div class="video-title">India as a Sports Forward Nation in the words of Virat Kohli | RCB x Leaders</div>
+                            <div class="video-title">Fans absolutely loved RCB Unbox 2025</div>
                             <div class="channel-name">Royal Challengers Bengaluru ✔</div>
-                            <div class="video-meta">11K views • 37 minutes ago</div>
+                            <div class="video-meta">41K views • 59 minutes ago</div>
                         </div>
                     </div>
                 </div>
             
                 <div class="video-container">
                     <div class="video-box">
-                        <img src="https://i.ytimg.com/vi/3JZ_D3ELwOQ/maxresdefault.jpg" alt="Video Thumbnail">
+                        <img src="./Screenshot 2025-03-19 at 4.10.49 PM.png" alt="Video Thumbnail">
                     </div>
                     <div class="video-details">
                         <div class="channel-logo">
-                            <img src="https://yt3.ggpht.com/ytc/AIdro_l3Bz6doyOqmxnbxC7YTPEYDkB4EqydIAMsbEUjvC3cQlxG46o=s88-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
+                            <img src="https://yt3.ggpht.com/3jFh1gFXByR47e7VLyE6TOkRCXEqUbw2CIgH5kIJt2NzGeDP-qvGvwQMrZi9nVQmkEAjA_X8UQ=s68-c-k-c0x00ffffff-no-rj" alt="Channel Logo">
                         </div>
                         <div class="video-info">
-                            <div class="video-title">India as a Sports Forward Nation in the words of Virat Kohli | RCB x Leaders</div>
+                            <div class="video-title">Mr.Nages Gate Crashes Lap of Honour at RCB Unbox 2025</div>
                             <div class="channel-name">Royal Challengers Bengaluru ✔</div>
-                            <div class="video-meta">11K views • 37 minutes ago</div>
+                            <div class="video-meta">360K views • 1 day ago</div>
                         </div>
                     </div>
                 </div>
@@ -243,37 +252,37 @@
                     </div>
                     <div class="shorts-wrapper">
                         <div class="short-card">
-                            <img src="https://via.placeholder.com/170x300" alt="Short Video">
+                            <img src="./Screenshot 2025-03-19 at 3.58.03 PM.png" alt="Short Video">
                             <div class="short-title">Hey guys part 9 #telugu #hyderabad</div>
                             <div class="short-views">1.3M views</div>
                         </div>
                         <div class="short-card">
-                            <img src="https://via.placeholder.com/170x300" alt="Short Video">
+                            <img src="./Screenshot 2025-03-19 at 3.59.40 PM.png" alt="Short Video">
                             <div class="short-title">Trapped in a Time Loop</div>
                             <div class="short-views">1.9M views</div>
                         </div>
                         <div class="short-card">
-                            <img src="https://via.placeholder.com/170x300" alt="Short Video">
+                            <img src="./Screenshot 2025-03-19 at 4.00.35 PM.png" alt="Short Video">
                             <div class="short-title">😂 Telugu Podcast | Raw Talks</div>
                             <div class="short-views">139K views</div>
                         </div>
                         <div class="short-card">
-                            <img src="https://via.placeholder.com/170x300" alt="Short Video">
+                            <img src="./Screenshot 2025-03-19 at 4.03.38 PM.png" alt="Short Video">
                             <div class="short-title">Ammani nammodhu 🤡 #comedy</div>
                             <div class="short-views">687K views</div>
                         </div>
                         <div class="short-card">
-                            <img src="https://via.placeholder.com/170x300" alt="Short Video">
+                            <img src="./Screenshot 2025-03-19 at 4.01.09 PM.png" alt="Short Video">
                             <div class="short-title">Hard Plastic Cricket Kit vs Leather Ball</div>
                             <div class="short-views">985K views</div>
                         </div>
                         <div class="short-card">
-                            <img src="https://via.placeholder.com/170x300" alt="Short Video">
+                            <img src="./Screenshot 2025-03-19 at 4.03.56 PM.png" alt="Short Video">
                             <div class="short-title">Hard Plastic Cricket Kit vs Leather Ball</div>
                             <div class="short-views">985K views</div>
                         </div>
                         <div class="short-card">
-                            <img src="https://via.placeholder.com/170x300" alt="Short Video">
+                            <img src="./Screenshot 2025-03-19 at 4.04.16 PM.png" alt="Short Video">
                             <div class="short-title">Hard Plastic Cricket Kit vs Leather Ball</div>
                             <div class="short-views">985K views</div>
                         </div>
